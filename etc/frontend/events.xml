@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="controller_action_predispatch_directory_currency_switch">
+        <observer name="disable.newrelic" instance="Space48\NewRelic\Observer\DisableNewRelic" />
+    </event>
+</config>
