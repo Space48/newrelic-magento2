@@ -1,4 +1,10 @@
 {
     "name": "Space48/NewRelic",
-    "type": "magento2-module"
+    "type": "magento2-module",
+    "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Space48\\NewRelic\\": ""
+    }
+  }
 }
