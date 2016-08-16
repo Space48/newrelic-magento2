@@ -4,7 +4,7 @@
     "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
-      "Space48\\NewRelic\\": ""
+      "space48\\newrelic\\": ""
     }
   }
 }
