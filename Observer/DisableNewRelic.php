@@ -9,7 +9,6 @@ class DisableNewRelic implements ObserverInterface
      * Disables New Relic if the extension is loaded
      *
      * @param \Magento\Framework\Event\Observer $observer // Observer
-     *
      * @return \Space48\NewRelic\Observer\DisableNewRelic;
      */
     public function execute(\Magento\Framework\Event\Observer $observer)
