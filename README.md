@@ -7,7 +7,7 @@ To include this module in your Magento 2 project, your composer.json `minimum-st
 1) Include the module in your project:
 
 ````
-composer config repositories.magento vcs https://github.com/space48/newrelic-magento2
+composer config repositories.space48-newrelic-magento2 vcs https://github.com/space48/newrelic-magento2
 ````
 
 2) Require the module in your composer file:
