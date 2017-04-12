@@ -1,16 +1,20 @@
 {
     "name": "space48/newrelic",
-    "type": "magento2-module",
-    "version": "0.1.1",
-    "autoload": {
-    "files": [ "registration.php" ],
-    "psr-4": {
-      "Space48\\NewRelic\\": ""
-    },
     "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0",
-        "magento/framework": "100.1.*",
-        "magento/module-currency-symbol": "100.1.*"
+        "php": "~7.0.0",
+        "magento/framework": "100.1.*"
+    },
+    "type": "magento2-module",
+    "version": "0.1.2",
+    "license": [
+        "proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Space48\\NewRelic\\": ""
+        }
     }
-  }
 }
